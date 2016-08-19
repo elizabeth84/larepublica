@@ -6,8 +6,8 @@
 
 body {
 	font-size: 16px;
-	font-family: Oswald;
 }
+
 
 /*común*/
 .img-cien {
@@ -21,6 +21,11 @@ body .header-sup {
 	height: auto;
 	border-bottom: 1px solid #8A8A8A;
 	padding-top: 1%;
+	font-family: Oswald;
+}
+
+.family-oswald {
+	font-family: Oswald;
 }
 
 /*buscador*/
@@ -55,7 +60,7 @@ div .enlaces a {
 	display: inline-block;
 }
 
-form:before {
+.form-inline:before {
 	content: "\007C";
 	color: gray;
     font-size: 20px;
@@ -391,4 +396,234 @@ div .overlay .noticia-texto p a{
 
 }
 
+
+
+/*Noticia*/
+
+.noticias span, .noticias .gray-em {
+	color: gray;
+	font-size: 0.8em;
+}
+.noticias i {
+	font-size: 1.2em;
+}
+.noticias .ult-noticias {
+	font-family: "Oswald"; 
+	color: gray;
+	margin-top: 2%; 
+}
+.noticias .titulo{
+	text-decoration: none;
+	color: black;
+}
+.noticias .fs-p {
+	font-size: 1em;
+	margin-top: 1%;
+}
+.bg-if ,.bg-it ,.bg-ig {
+	display: inline-block;
+	background-color: #EFEFEF;
+	width: 25px;
+	height: 25px;
+	padding: 2px; 
+	border-radius: 5px;
+	border-bottom: 3px solid;
+	margin-left: 0.3em;
+}
+.noticias span {
+	margin: 0.3em;
+}
+.noticias .border-b {
+	margin-top: 2%;
+	margin-bottom: 3%;
+	border-bottom: 1px solid #CDCDCD; 
+	padding-bottom: 1.5em;
+}
+.noticias .img-news {
+	width: 100%;
+}
+.noticias .g-boton{
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+.noticias .bg-if:hover {
+	background-color: rgba(0, 42, 80, 0.5);
+} 
+.noticias .bg-it:hover {
+	background-color: rgba(0, 110, 163, 0.4);
+} 
+.noticias .bg-ig:hover {
+	background-color: rgba(178, 44, 42, 0.5);
+} 
+.noticias .fa-facebook {
+	color: #23599B;
+}
+.noticias .fa-twitter {
+	color: #00B8DB;
+}
+.noticias .fa-google-plus {
+	color: #ED6559;
+}
+.noticias .bg-if {
+	border-color: #23599B;
+}
+.noticias .bg-it {
+	border-color: #00B8DB;
+}
+.noticias .bg-ig {
+	border-color: #ED6559;
+}
+.noticias .fa-youtube-play {
+	color: #ED6559;
+}
+
+/*Boletin de Subscripcion*/
+
+.noticias .bg-dots {
+	background-image: url("../image/trama_square.jpg");
+	padding: 8% 0;
+	margin-bottom: 5%; 
+}
+.noticias .btn-noticias {
+	margin: 2% 25%;
+	width: 50%;
+}
+.noticias .bg-dots .suscribe {
+	margin: -25px auto;
+}
+.noticias .bg-dots p {
+	font-size: 1.2em;
+}
+.noticias .bg-dots .bg-white {
+	background-color: white;
+	width: 90%; 
+	padding: 8% 2%; 
+}
+.noticias .bg-dots .btn-danger {
+	margin-top: 2%;
+	width: 75%;
+}
+.noticias .bg-dots #exampleInputEmail1 {
+	width: 80%;
+}
+
+/*Aweita Libero Popular Wapa*/
+
+.aweita, .libero , .popular, .wapa {
+	border: 1px solid #CDCDCD;
+	padding: 2%;
+	margin-top: 5%;
+}
+.aweita .player, .libero .player, .popular .player, .wapa .player{
+	width: 90%;
+	border: 3px solid gray;
+}
+.aweita .pd-5, .libero .pd-5, .popular .pd-5, .wapa .pd-5 {
+	padding: 2% 5%;
+}
+.aweita .pd-l, .libero .pd-l, .popular .pd-l, .wapa .pd-l {
+	padding-left: 0;
+}
+.aweita .pd-r, .libero .pd-r, .popular .pd-r, .wapa .pd-r {
+	padding-right: 0;
+}
+.aweita p, .libero p, .popular p, .wapa p {
+	font-size: 0.8em;
+}
+
+
+/*Aweita*/
+
+.aweita .mas {
+	width: 105px;
+	border-bottom: 4px solid #94339B; 
+	margin-bottom: -2%;
+	margin-top: 2%; 
+}
+.aweita p a {
+	color: #94339B;
+}
+
+/*Libero*/
+
+.libero .mas {
+	width: 105px;
+	border-bottom: 4px solid #DD0042; 
+	margin-bottom: -2%;
+	margin-top: 2%; 
+}
+.libero p a {
+	color: #DD0042;
+}
+
+
+/*Popular*/
+.popular .mas {
+	width: 120px;
+	border-bottom: 4px solid #FCE75D; 
+	margin-bottom: -2%;
+	margin-top: 2%; 
+}
+.popular p a {
+	color: #DD0042;
+}
+
+/*Wapa*/
+
+.wapa .mas {
+	width: 100px;
+	border-bottom: 4px solid #DD0042; 
+	margin-bottom: -2%;
+	margin-top: 2%; 
+}
+.wapa p a {
+	color: #DD0042;
+}
+
+/* Footer*/
+
+.gray-grupo-lr {
+	background-color: #EFEFEF;
+}
+.grupo-lr1 {
+	padding-top: 3%;
+	margin-bottom: 1%; 
+}
+.grupo-lr a {
+	text-decoration: none;
+	color: black; 
+	display: block;
+	font-size: 0.8em;
+}
+.grupo-lr .info {
+	margin-top: 1%;
+	padding: 10% 6%; 
+ 	border-right: 1px solid white;
+}
+.grupo-lr a:hover {
+	text-decoration: underline;
+}
+.grupo-lr p {
+	margin-bottom: 0;
+	font-size: 0.8em;
+}
+.grupo-lr .footer-text{
+ 	border-top: 1px solid white;
+	font-size: 0.8em;
+	padding: 1% 0%;
+	color: gray; 
+}
+.dark-gray-grupo-lr {
+	background-color: #1a1a1a;
+}
+.dark-gray-grupo-lr h3, .dark-gray-grupo-lr h5 {
+	color: white;
+	font-family: "PT Sans";
+}
+.dark-gray-grupo-lr h3 {
+	padding-top: 3%;
+}
+.dark-gray-grupo-lr h5 {
+	padding-bottom: 3%;
+}
 
