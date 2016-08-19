@@ -287,11 +287,11 @@ div .overlay .noticia-texto p a{
 }
 
 .texto-izq {
-	padding: 370px 30px 0 30px;
+	padding: 360px 30px 0 30px;
 }
 
 .texto-der {
-	padding: 140px 30px 0 30px;
+	padding: 130px 30px 0 30px;
 }
 
 /*iconos*/
@@ -409,6 +409,47 @@ div .overlay .noticia-texto p a{
 }
 
 @media screen and (max-width : 480px) {
+	.autor-fondo {
+		width: 115%;
+	}
+
+	.img-editorial {
+		left: 0;
+	}
+
+	.img-autor {
+		top: -3px;
+		left: 710px;
+	}
+
+}
+
+@media screen and (max-width : 1024px) {
+
+	.box-autor {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+
+	.box-autor-black {
+		padding-left: 0;
+	}
 	
+	.autor-fondo {
+		width: 115%;
+	}
+
+	.img-editorial {
+		left: 0;
+	}
+
+	.img-autor {
+		top: -3px;
+		left: 760px;
+	}
+
+	.logo-img-header {
+	padding-bottom: 40px;
+	}
 
 }
