@@ -1,4 +1,81 @@
 /*Columnistas*/
+.columnistas .deportes{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.pad{
+    padding:0;
+}         
+section.columnistas{
+	position: relative;
+	background-color: #F0EDED;
+	border-top: solid #B00C0C;
+	padding: 5%;
+}
+.box-red {
+	position: absolute;
+	background-color: #B00C0C;
+  	color: #FFFFFF;
+  	height: 8%;
+  	width: 20%;
+  	font-size: 18px;
+  	top: -3%;
+  	right: 40%;
+  	padding: 7px 3px;
+}
+.borde {
+	border: 5px solid white;
+	display: block;
+    margin: auto;
+}
+.txt-columnistas {
+	text-align: center;
+	font-size: 11px;
+}
+section.deportes {
+	padding-top: 5%;
+}
+.img-deportes {
+	background-image: url(../image/img_especiales.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    padding-top: 50%;
+    color: #FFFFFF;
+    padding-left: 12px;
+    position: relative;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: -moz-linear-gradient(top,  rgba(53,43,50,0.65) 21%, rgba(53,43,50,0.52) 37%, rgba(0,0,0,0.2) 76%, rgba(0,0,0,0) 100%);
+	background: -webkit-linear-gradient(top,  rgba(53,43,50,0.65) 21%,rgba(53,43,50,0.52) 37%,rgba(0,0,0,0.2) 76%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom,  rgba(53,43,50,0.65) 21%,rgba(53,43,50,0.52) 37%,rgba(0,0,0,0.2) 76%,rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6352b32', endColorstr='#00000000',GradientType=0 );
+	padding-top: 37%;
+	padding-left: 6%;
+}
+.red {
+	color: #C00101;
+	margin: 10px auto;
+}
+.white {
+	color: white;
+	margin: 2px;
+	font-size: 18px;
+}
+.border {
+	border: 1px solid gray;
+	margin-bottom: 30px;
+}
+.pd {
+	padding-top: 12px;
+}
+
+
 /*body*/
 * {
 	box-sizing: border-box;
@@ -835,4 +912,15 @@ div .overlay .noticia-texto p a{
 		padding-right: 2px;
     	padding-left: 13px;
 	}
+}
+.carlincatura-blogueros a {
+	color:black!important;
+	text-decoration: none!important;
+}
+.carlincatura-blogueros a:hover {
+	text-decoration: underline!important;
+	color: black;
+}
+.media-body .encabezado p{
+	margin-top: 60px;
 }
