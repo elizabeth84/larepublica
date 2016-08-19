@@ -22,38 +22,36 @@ body .header-sup {
 	padding-top: 1%;
 }
 
+/*buscador*/
+
 div .enlaces {
-	margin-top: 1%;
 	font-size: 0.7em;
+	padding-top: 12px;
+	padding-bottom: 8px;
 }
 
 div .enlaces a {
 	color: #5E5E5E;
-	padding-right: 10px;
+	padding-right: 7px;
 }
 
 .buscador {
-	padding-left: 109px;
-	padding-top: 6px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
+	padding-top: 3px;
 }
 
 .buscador button {
-	padding: 1px ;
-	font-size: 0.7em;
-	margin-right: 10px;
+	padding: 2px ;
+	font-size: 0.8em;
+	margin-right: 20px;
 }
 
-.form-inline {
-	margin-left: 76px;
+.buscador a {
+	padding-right: 16px;
 }
 
 .buscador form {
 	display: inline-block;
-}
-
-.line {
-	margin-left: 41px;
 }
 
 form:before {
@@ -74,15 +72,16 @@ form:before {
 
 .buscador input {
 	font-size: 0.6em;
-	width: 36%;
+	width: 63%;
 	background-color: transparent;
 	border: none;
-	margin-left: 15px;
 }
 
 form button {
 	border: none;
 }
+
+/*logo*/
 
 .header-logo {
 	padding-top: 2%;
@@ -91,6 +90,13 @@ form button {
 
 .logo-img {
 	margin-top: 3.5%;
+	width: 100%;
+}
+
+/*caja noticia*/
+
+.box-autor {
+	padding-left: 67px;
 }
 
 .noticia-nac {
@@ -101,9 +107,8 @@ form button {
 	border-bottom: 3px solid #C00101;
 	border-right: 0.8px solid #8A8A8A;
 	height: 60px;
-	width: 70%;
-	padding-top: 7%;
-	margin-left: 40%;
+	width: 113%;
+	padding-top: 38px;
 }
 
 .domingo {
