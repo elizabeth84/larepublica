@@ -82,6 +82,10 @@ form button {
 	border: none;
 }
 
+.mt-70 {
+	margin-top: 70px;
+}
+
 /*logo*/
 
 .header-logo {
