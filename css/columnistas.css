@@ -72,3 +72,68 @@ section.deportes {
 .pd {
 	padding-top: 12px;
 }
+
+.columnistas-e {/*todos los columnstas ordenados alfabeticamente*/
+	font-family: "Oswald";
+}
+.columnistas-e .titulo{
+	color:gray;
+	display:inline-block;
+	margin-top: 4px;
+}
+.columnistas-e .espacio{
+	padding-top: 27px;
+}
+.columnistas-e img{
+	margin: 21px 13px 5px;
+	float: left;
+}
+.columnistas-e .double{
+	float: none;
+	margin-top: 2px;
+	margin-left: 1px;
+	display: inline;
+}
+.columnistas-e .fondo {
+	background-color: #C81515;
+	padding: 1px;
+}
+.columnistas-e .pager li > a{
+	background-color:#C81515;
+	color:white; 
+	padding: 6px 24px;
+	border:1px solid #C81515;
+}
+.columnistas-e .pager li > a:hover{
+	background-color:#8C0000;
+	text-decoration: underline; 
+}
+.columnistas-e a{
+	color:white;
+	font-size: 19px;
+	margin-left: 18px;
+}
+.columnistas-e a:active{
+	background-color: red;
+}
+/*blogueros*/
+.columnistas-e .colum1{
+	background-color:#C3C3C3;
+	margin-top: 5px;
+    height: 100px;
+}
+.columnistas-e .datos{
+	display: inline-block;
+	margin-top: 12px;
+}
+.columnistas-e .blog{
+	text-decoration: none;
+	color:gray;
+	font-size: 16px;
+}
+.columnistas-e .left{
+	padding-left: 8px;
+}
+.columnistas-e .intelineado{
+	line-height: 0.3;
+}
