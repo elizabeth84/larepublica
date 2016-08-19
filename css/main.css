@@ -708,3 +708,131 @@ div .overlay .noticia-texto p a{
     width: 265px;
 }
 
+.carlincatura-blogueros .titular{
+	padding: 20px 20px 20px;
+}
+.carlincatura-blogueros .gcarlin{
+	border: 2px solid #B40404;
+}
+.carlincatura-blogueros .gtext{
+	color: #fff;
+	font-family: "Oswald" , arial;
+	padding: 2px;
+	margin-top: -35px;
+}
+.carlincatura-blogueros .bcr{
+	background-color: #B40404;	
+	width: 150px;
+}
+.carlincatura-blogueros .textcar{
+	font-size: 16px;
+	margin: 15px;
+}
+.carlincatura-blogueros .gtitulo{
+	border: 2px solid #667885;
+}
+.carlincatura-blogueros .bcg{
+	background-color: #667885;
+	width: 150px;
+}
+.carlincatura-blogueros .derecha{
+	float: right;
+}
+.carlincatura-blogueros .subrayado{
+	font-size: 10px;
+}
+
+.carlincatura-blogueros .ollanta{
+	background-image: url(../image/img_especiales_aside.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+	margin-top: 20px;
+	padding-top: 105px;
+}
+
+.carlincatura-blogueros .rlj{
+	background-color: #fff;
+	background-color: rgba(255, 255, 2555, 0.5);
+	padding: 3px;
+	width: 265px;
+}
+.carlincatura-blogueros .img{
+	margin-top: 20px;
+}
+.carlincatura-blogueros .encabezado{
+	padding-top: 50px;
+}
+@media (min-width: 768px) and (max-width: 979px){
+	.ml{
+		margin-right: -19px;
+		padding-left: 15px;
+		padding-right: 1px;
+	}
+	.mr{
+		margin-left: 5px;
+		padding-right: 2px;
+		padding-left: 13px;
+	}
+}
+
+.rmp {/*mi reportero, mi  mascota y pregunta del dia*/
+	padding: 0px;
+	margin:0px;
+}
+.rmp .reportero{
+	background-image:url("../image/trama_square.jpg");
+	background-repeat: repeat;
+	margin-top: 14px;
+	padding: 35px 5px 5px 5px;    
+}
+.rmp img {
+  display: block;
+  margin: -26px auto;
+}
+.rmp .pregunta{
+	background-color: white;
+	margin:5px 4px;
+	padding: 12px 20px;
+}
+.rmp .preayer{
+	margin: 16px 5px 11px 4px;
+    padding: 27px 29px 22px 29px;
+}
+.rmp .radio {
+	text-align: center;
+}
+.rmp .btn-lg{
+	padding: 10px 66px;
+	display:block;
+	margin: 10px auto;
+}
+.rmp .progress{
+	margin: 12px;
+}
+.rmp .progress-bar{
+	color:black;
+}
+.rmp .fondo{
+	background-image: url("../image/barprogress_bg.jpg");
+	background-repeat:repeat;
+}	
+.rmp .auto{
+	margin:12px auto;
+}
+.rmp .enlaces{
+	text-decoration: none;
+	color:black;
+}
+@media (min-width: 768px) and (max-width: 979px){
+	.rmp .ml{
+		margin-right:-19px;
+		padding-left: 15px;
+    	padding-right: 1px;
+	}
+	.rmp .mr{
+		margin-left: 5px;
+		padding-right: 2px;
+    	padding-left: 13px;
+	}
+}

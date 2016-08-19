@@ -1,0 +1,22 @@
+.text{
+	padding-top: 30px;
+}
+.barra{
+	border-radius: 5px;
+
+}
+.lista{
+	text-align: justify;
+}
+.boton{
+	margin-top: 20px;
+}
+.a{
+	padding: 0px 100px 20px !important;
+}
+.b{
+    padding: 0px 200px 80px !important;
+}
+.sub{
+	margin-top: 50px;
+}
