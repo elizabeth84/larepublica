@@ -627,3 +627,84 @@ div .overlay .noticia-texto p a{
 	padding-bottom: 3%;
 }
 
+/* fotos destacadas*/
+
+.gtitulo{
+	border:2px solid #667885;
+}
+
+.gtext{
+	color: #ffffff;
+	font-family: "Oswald" ,arial;
+	padding: 2px;
+	margin-top: -35px;
+}
+
+.bcg{
+	background-color: #667885;
+	width: 131px;
+}
+
+
+/*imagen*/
+
+.iborder{
+	border:1px solid #667885 ;
+}
+
+.big{
+	margin-top: 20px;
+}
+
+.sml{
+	float: left;
+}
+
+.sml1{
+	clear: both;
+	padding-top: 10px;
+}
+
+/*tipografia*/
+
+.news{
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.mt{
+	margin-top: 10px;
+}
+
+.news a:hover{
+	color: #000; 
+}
+
+.news a {
+	color: #000;
+}
+
+.mv-42 {
+	margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+/*especiales*/
+
+.ollanta{
+	background-image: url(../image/img_especiales_aside.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+	margin-top: 20px;
+	padding-top: 105px;
+}
+
+.rlj{
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    padding: 3px;
+    width: 265px;
+}
+
